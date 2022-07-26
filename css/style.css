@@ -1,0 +1,12 @@
+body {
+    background-color: greenyellow;
+}
+
+h1 {
+    color: transparent;
+}
+
+h1:hover {
+    color: whitesmoke;
+    text-align: center;
+}
