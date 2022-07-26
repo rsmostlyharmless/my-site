@@ -1,12 +1,36 @@
 body {
-    background-color: greenyellow;
+    margin: 4.2% 26.03% 4.2% 26.03%;
+}
+
+.main-container {
+    background-color: black;
+    height: 800px;
+    width: 800px;
+}
+
+.top-container, .middle-container, .bottom-container {
+    height: 200px;
+    padding: 20px;
+    width: 200px;
+}
+
+.top-container {
+ background-color: coral;
+ border: 10px solid whitesmoke;
+}
+
+.middle-container {
+    background-color: aquamarine;
+    border: 20px solid whitesmoke;
+    margin: auto;
+}
+
+.bottom-container {
+    background-color: blueviolet;
+    border: 10px solid whitesmoke;
+    margin-left: 67.5%;
 }
 
 h1 {
-    color: transparent;
-}
-
-h1:hover {
-    color: whitesmoke;
-    text-align: center;
+    margin: 0;
 }
