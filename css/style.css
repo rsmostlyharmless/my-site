@@ -16,12 +16,12 @@ body {
 }
 
 h1 {
-    font-family: 'Rampart One', cursive;
+    font-family: 'Rubik Moonrocks', cursive;
     margin-top: 0;
 }
 
 h2, h3 {
-    font-family: 'Rubik Moonrocks', cursive;
+    font-family: 'Rampart One', cursive;
 }
 
 p {
@@ -40,12 +40,22 @@ p {
     bottom: 51.8%;
 }
 
-/* .middle-container {
-    background-color: aquamarine;
-    margin: auto;
+.middle-container {
+
+}
+
+.skill {
+    border-radius: 100%;
+    height: auto;
+    width: 300px;
+}
+
+.octopus {
+    border-radius: 100%;
+    height: auto;
+    width: 200px;
 }
 
 .bottom-container {
-    background-color: blueviolet;
-    margin-left: 67.5%;
-} */
+
+}
