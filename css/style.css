@@ -33,7 +33,7 @@ h2, h3 {
     font-family: 'Rampart One', cursive;
 }
 
-h3 {
+h3, a {
     color: #59b4c0;
 }
 
