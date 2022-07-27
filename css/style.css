@@ -1,4 +1,5 @@
 body {
+    font-family: 'Arima', cursive;
     margin: 0;
     text-align: center;
 }
@@ -11,23 +12,34 @@ body {
 
 .cloud-one {
     position: absolute;
-    margin: 0 30% 0 10%;
-    top: 59px;
+    margin: 25px  28% 0 12%;
 }
 
 h1 {
     font-family: 'Rubik Moonrocks', cursive;
-    margin-top: 0;
+    font-size: 6rem;
+    margin: 50px auto 0 auto;
+}
+
+h1, h2 {
+    color: rgb(106, 208, 234);
+}
+
+h2 {
+    font-size: 2.5rem;
 }
 
 h2, h3 {
     font-family: 'Rampart One', cursive;
 }
 
+h3 {
+    color: #59b4c0;
+}
+
 p {
     margin-bottom: 0;
     padding-bottom: 30px;
-    font-family: 'Arima', cursive;
 }
 
 .pro {
@@ -36,8 +48,8 @@ p {
 
 .cloud-two {
     position: absolute;
-    left: 30.2%;
-    bottom: 51.8%;
+    left: 22%;
+    bottom: 42%;
 }
 
 .middle-container {
