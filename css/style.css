@@ -16,12 +16,18 @@ body {
 }
 
 h1 {
+    font-family: 'Rampart One', cursive;
     margin-top: 0;
+}
+
+h2, h3 {
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
 p {
     margin-bottom: 0;
     padding-bottom: 30px;
+    font-family: 'Arima', cursive;
 }
 
 .pro {
