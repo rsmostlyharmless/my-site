@@ -41,9 +41,15 @@ h3, a {
     color: #59b4c0;
 }
 
+hr {
+    border: 2px solid #dde8e8;
+    border-radius: 100%;
+    width: 30%;
+}
+
 .top-container {
  background-color: rgb(217, 243, 250);
- box-shadow: 1px 35px 70px 20px rgb(217, 243, 250);
+ box-shadow: 1px 20px 70px 50px rgb(217, 243, 250);
  padding-top: 100px;
  position: relative;
 }
@@ -99,6 +105,11 @@ float: right;
     float: left;
 }
 
+.contact-me {
+    margin: 100px auto;
+}
+
 .bottom-container {
     background-color: rgb(217, 243, 250);
+    box-shadow: 1px -20px 70px 50px rgb(217, 243, 250);
 }
