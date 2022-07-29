@@ -15,6 +15,7 @@ h1 {
 h2 {
     font-size: 2.5rem;
     font-weight: normal;
+    line-height: 2;
 }
 
 h3 {
@@ -74,7 +75,7 @@ hr {
 }
 
 .profile {
-    margin: 100px 35%;
+    margin: 140px 35% 100px;
 }
 
 .octopus {
@@ -83,9 +84,13 @@ hr {
     width: 45%;
 }
 
+.skills {
+    margin-top: 100px;
+}
+
 .skill-row {
     line-height: 2;
-    margin: 100px auto;
+    margin: 100px auto 100px auto;
     text-align: left;
     width: 50%;
 }
@@ -106,10 +111,51 @@ float: right;
 }
 
 .contact-me {
-    margin: 100px auto;
+    margin: 100px auto 140px;
+}
+
+.contact-me > p {
+    margin: 50px auto 30px;
 }
 
 .bottom-container {
     background-color: rgb(217, 243, 250);
     box-shadow: 1px -20px 70px 50px rgb(217, 243, 250);
 }
+
+.btn {
+    background: #15c9d6;
+    background-image: -webkit-linear-gradient(top, #15c9d6, #216894);
+    background-image: -moz-linear-gradient(top, #15c9d6, #216894);
+    background-image: -ms-linear-gradient(top, #15c9d6, #216894);
+    background-image: -o-linear-gradient(top, #15c9d6, #216894);
+    background-image: linear-gradient(to bottom, #15c9d6, #216894);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 15px;
+    text-shadow: 2px 3px 2px #24a37f;
+    color: rgb(239, 248, 246);
+    font-size: 28px;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #216894;
+    background-image: -webkit-linear-gradient(top, #216894, #15c9d6);
+    background-image: -moz-linear-gradient(top, #216894, #15c9d6);
+    background-image: -ms-linear-gradient(top, #216894, #15c9d6);
+    background-image: -o-linear-gradient(top, #216894, #15c9d6);
+    background-image: linear-gradient(to bottom, #216894, #15c9d6);
+    text-decoration: none;
+  }
+
+  .btn:active {
+    background: #15c9d6;
+    background-image: -webkit-linear-gradient(top, #15c9d6, #216894);
+    background-image: -moz-linear-gradient(top, #15c9d6, #216894);
+    background-image: -ms-linear-gradient(top, #15c9d6, #216894);
+    background-image: -o-linear-gradient(top, #15c9d6, #216894);
+    background-image: linear-gradient(to bottom, #15c9d6, #216894);
+    text-decoration: none;
+  }
