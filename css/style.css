@@ -42,6 +42,10 @@ h3, a {
     color: #59b4c0;
 }
 
+a:hover {
+ color: rgb(239, 248, 246);
+}
+
 hr {
     border: 2px solid #dde8e8;
     border-radius: 100%;
